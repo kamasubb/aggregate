@@ -16,6 +16,8 @@ source:
     - lazy_bind_C_extension.patch
     # https://github.com/pytorch/pytorch/issues/4499
     - define_speed_unknown.patch
+    - 0002-torch-test.patch
+    - 0003-test-nn.patch
 
 build:
   number: 0
